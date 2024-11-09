@@ -23,3 +23,54 @@ p{
     text-align:center;
 
 }
+
+[class*= "col-"]{
+    float: left;
+    padding: 10px;
+}
+
+[class*= "col-"]{
+    width: 100%;
+}
+
+
+h2{
+    color: orange;
+}
+
+.navbar{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: justify;
+
+}
+
+.navbar h1{
+    color:white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+.nav-menu a{
+    background-color: #0c6161;
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px;
+}
+
+.nav-menu a:hover{
+    background-color: grey;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
