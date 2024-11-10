@@ -34,6 +34,8 @@ p{
 }
 
 
+/* Navbar start here */
+
 h2{
 
     font-size: 1.5rem;
@@ -77,13 +79,12 @@ h2{
     display: table;
     clear: both;
 }
+/* Navbar Ends Here */
 
 
 
 
-
-
-
+/* profile start here */
 .profile{
     padding: 130px 10px;
     position: relative;
@@ -128,8 +129,14 @@ h2{
 
 .profile .bottom-icon:hover{
     transform: rotate(360deg);
-    text-align: center;
-  
     
+  
 }
 
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* profile ends here */
