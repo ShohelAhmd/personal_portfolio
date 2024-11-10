@@ -35,3 +35,40 @@
 
 }
 /* navbar design ends here */
+
+
+/* Profile Design start here */
+.profile{
+    height: 85vh;
+}
+.profile .top-icon{
+    right: 140px;
+    transition:width 2s, transform 2s;
+    
+}
+
+.profile .top-icon:hover{
+    width: 140px;
+    transform: rotate(360deg);
+    
+}
+
+.profile .bottom-icon{
+    left: 140px;
+    transition:width 2s, transform 2s;
+    
+    
+}
+
+.profile .bottom-icon:hover{
+    width: 140px;
+    transform: rotate(360deg); 
+}
+
+.profile-des p{
+    color: grey;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto ;
+}
+/* Profile Design ends here */
