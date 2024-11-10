@@ -72,3 +72,25 @@
     margin: 0 auto ;
 }
 /* Profile Design ends here */
+
+
+
+
+
+/* About-me design start here */
+.about-me{
+    text-align: justify;
+    height: 100vh;
+}
+
+.aboutme-img img{
+    border: 2px solid white;
+    height:500px ;
+    width: 400px;
+}
+
+.aboutme-des p{
+    text-align: left;
+}
+
+/* About-me design Ends here */
