@@ -35,13 +35,16 @@ p{
 
 
 h2{
-    color: orange;
+
+    font-size: 1.5rem;
+    text-align: center;
+    
 }
 
 .navbar{
     background-color: #40868b;
     padding: 1% 7%;
-    text-align: justify;
+    text-align: center;
 
 }
 
@@ -74,12 +77,6 @@ h2{
     display: table;
     clear: both;
 }
-
-.nav-logo{
-    text-align: center;
-}
-
-
 
 
 
