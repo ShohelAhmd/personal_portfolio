@@ -183,3 +183,32 @@ h2{
     content:'' ;
 }
 /* About me ends here */
+
+
+
+/* Professional design start here */
+.professional-experience{
+    padding: 1% 0%;
+}
+
+.professional-experience .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.work-ex{
+    text-align: center;
+}
+.card-icon img{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
