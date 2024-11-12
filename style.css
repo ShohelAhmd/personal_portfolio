@@ -268,3 +268,71 @@ h2{
     animation-iteration-count:2;
 
 }
+
+.skills-container li.html::after{
+    animation-name: html;
+    }
+    
+    @keyframes html {
+        to{
+            width: 90%;
+        }
+    }
+    
+    .skills-container li.css::after{
+        animation-name: css;
+        }
+        
+        @keyframes css {
+            to{
+                width: 80%;
+            }
+        }
+    
+    .skills-container li.bootstrap::after{
+      animation-name: bootstrap;
+       }
+            
+     @keyframes bootstrap {
+       to{
+              width: 60%;
+                }
+            }
+    
+        
+            .skills-container li.Js::after{
+                animation-name: Js;
+                }
+                
+                @keyframes Js {
+                    to{
+                        width: 80%;
+                    }
+                }
+    
+                .skills-container li.Jquery::after{
+                    animation-name: Jquery;
+                    }
+                    
+                    @keyframes Jquery {
+                        to{
+                            width: 40%;
+                        }
+                    }
+    
+                    .skills-container li.git::after{
+                        animation-name: git;
+                        }
+                        
+                        @keyframes git {
+                            to{
+                                width: 80%;
+                            }
+                        }               
+    
+    .professional-experience::after{
+        clear: both;
+        display: table;
+        content: '';
+    }
+    
