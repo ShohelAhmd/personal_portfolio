@@ -38,7 +38,12 @@ p{
     width: 100%;
 }
 
-
+.dotted-hr{
+    border: dotted 6px #f9004d;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
 
 
 
