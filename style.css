@@ -294,7 +294,7 @@ h2{
     color: white;
 }
 
-.skills-container{
+skills-container{
     padding-right: 45px;
 }
 
@@ -312,7 +312,8 @@ h2{
     width: 100%;
     height: 10px;
     top:calc(100% + 5px);
-    background-color: rgb(86,86,153,.5);
+    background-color: #0d1013;
+  
     border-radius: 1000px;
 
 }
@@ -325,8 +326,9 @@ h2{
 
     width: 0;
     height: 10px;
-    
-    background-color: rgb(86,86,153,1);
+    background-image: linear-gradient(145deg, #ff014f, #d11414);;
+    /* background-color: #f9004d; */
+    /* background-color: rgb(86,86,153,1); */
     border-radius: 1000px;
 
     animation-duration: 5s;
@@ -338,71 +340,68 @@ h2{
 }
 
 .skills-container li.html::after{
-    animation-name: html;
+animation-name: html;
+}
+
+@keyframes html {
+    to{
+        width: 90%;
+    }
+}
+
+.skills-container li.css::after{
+    animation-name: css;
     }
     
-    @keyframes html {
+    @keyframes css {
         to{
-            width: 90%;
+            width: 80%;
         }
-    }
-    
-    .skills-container li.css::after{
-        animation-name: css;
-        }
-        
-        @keyframes css {
-            to{
-                width: 80%;
-            }
-        }
-    
-    .skills-container li.bootstrap::after{
-      animation-name: bootstrap;
-       }
-            
-     @keyframes bootstrap {
-       to{
-              width: 60%;
-                }
-            }
-    
-        
-            .skills-container li.Js::after{
-                animation-name: Js;
-                }
-                
-                @keyframes Js {
-                    to{
-                        width: 80%;
-                    }
-                }
-    
-                .skills-container li.Jquery::after{
-                    animation-name: Jquery;
-                    }
-                    
-                    @keyframes Jquery {
-                        to{
-                            width: 40%;
-                        }
-                    }
-    
-                    .skills-container li.git::after{
-                        animation-name: git;
-                        }
-                        
-                        @keyframes git {
-                            to{
-                                width: 80%;
-                            }
-                        }               
-    
-    .professional-experience::after{
-        clear: both;
-        display: table;
-        content: '';
     }
 
-    /* Professional experinced design ends here */
+.skills-container li.bootstrap::after{
+  animation-name: bootstrap;
+   }
+        
+ @keyframes bootstrap {
+   to{
+          width: 60%;
+            }
+        }
+
     
+        .skills-container li.Js::after{
+            animation-name: Js;
+            }
+            
+            @keyframes Js {
+                to{
+                    width: 80%;
+                }
+            }
+
+            .skills-container li.Jquery::after{
+                animation-name: Jquery;
+                }
+                
+                @keyframes Jquery {
+                    to{
+                        width: 40%;
+                    }
+                }
+
+                .skills-container li.git::after{
+                    animation-name: git;
+                    }
+                    
+                    @keyframes git {
+                        to{
+                            width: 80%;
+                        }
+                    }               
+
+.professional-experience::after{
+    clear: both;
+    display: table;
+    content: '';
+}
