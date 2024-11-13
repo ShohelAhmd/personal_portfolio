@@ -31,6 +31,13 @@ p{
     width: 100%;
 }
 
+.red{
+    border: solid 1px #f9004d;
+    border-bottom: none;
+    margin: 10px auto;
+    width: 100%;
+}
+
 
 
 
