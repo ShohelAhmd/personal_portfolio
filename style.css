@@ -190,16 +190,19 @@ h2{
 
 /* About me start here */
 .about-me{
-    background-color: #39a4ac;
+    background-color:#212428;
+    /* background-color: #39a4ac; */
     padding: 1% 7%;
     color: white;
     text-align: center;
 }
 
 .aboutme-img img{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height:220px ;
     width: 200px;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
 }
 
 .aboutme-dex p{
@@ -211,7 +214,10 @@ h2{
 }
 
 .cv-btn{
-    background-color: #052d2f;
+    background-color:#212428;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    /* background-color: #052d2f; */
     color: white;
     border: none;
     border-radius: 12px;
@@ -220,6 +226,9 @@ h2{
     cursor: pointer;
     text-align: center;
     margin: 10px;
+}
+.cv-btn:hover{
+    color: #f9004d;
 }
 
 
