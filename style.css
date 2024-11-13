@@ -244,30 +244,38 @@ h2{
 /* Professional design start here */
 .professional-experience{
     padding: 1% 1%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    background-color:#212428;
 }
 
 .professional-experience .card{
-    background-color: #a39e9e;
+    background-color:#212428;
+    /* background-color: #a39e9e; */
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
     height: 700px;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    
 }
 
 .card:hover{
-    box-shadow: 0 4px 8px 5px black;
+   
+    box-shadow: 0 4px 8px 5px black; 
 }
 
 
 .card-icon img{
-    border: 5px solid white;
+    /* border: .5px solid #f9004d; */
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-top: 20px;
     padding: 15px;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
     
 }
 .card-icon{
@@ -275,10 +283,15 @@ h2{
 }
 
 .card-title h2{
-    background-color: #616161;
+    /* background-color: #616161; */
     color: white;
     padding: 10px;
     text-align: center;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+}
+.card-des{
+    color: white;
 }
 
 .skills-container{
