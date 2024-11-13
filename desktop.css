@@ -35,29 +35,33 @@
 .profile{
     height: 85vh;
 }
-.profile .top-icon{
-    right: 140px;
-    transition:width 2s, transform 2s;
-    
-}
+.top-loader {
+    border: 15px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #f9004d;
+    border-bottom: 16px solid #f9004d;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    right: 60px;
+    top: 20px;
+    position: absolute;
+  }
+  .bottom-loader {
+    border: 15px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #f9004d;
+    border-bottom: 16px solid #f9004d;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    left: 60px;
+    bottom: 20px;
+    position: absolute;
+  }
 
-.profile .top-icon:hover{
-    width: 140px;
-    transform: rotate(360deg);
-    
-}
-
-.profile .bottom-icon{
-    left: 140px;
-    transition:width 2s, transform 2s;
-    
-    
-}
-
-.profile .bottom-icon:hover{
-    width: 140px;
-    transform: rotate(360deg); 
-}
 
 .profile-des p{
     color: grey;
@@ -65,20 +69,23 @@
     width: 50%;
     margin: 0 auto ;
 }
-/* Profile Design ends here */
+/* profile design ends here */
 
 
+/* about me start here */
 
-
-
-/* About-me design start here */
 .about-me{
-    text-align: justify;
+    text-align:justify;
     height: 100vh;
+}
+.about-me h2{
+    text-align: center;
 }
 
 .aboutme-img img{
-    border: 2px solid white;
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    /* border: 2px solid white; */
     height:500px ;
     width: 400px;
 }
@@ -87,4 +94,11 @@
     text-align: left;
 }
 
-/* About-me design Ends here */
+.devider{
+    border-bottom: none;
+    margin-top: 200px;
+}
+
+
+/* about me ends here */
+
