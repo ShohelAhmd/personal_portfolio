@@ -405,3 +405,97 @@ animation-name: html;
     display: table;
     content: '';
 }
+/* professional design end here */
+
+/* Contact design start here */
+
+.contact{
+    background-color:#212428;
+    /* background-color: #39a4ac; */
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+}
+.contact h2{
+    text-align: center;
+
+}
+.contact-form{
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    height: 500px;
+    border-radius: 7px;
+    padding: 25px;
+    
+}
+
+
+.contact-form input , textarea{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+   
+    background-color: #191b1e;
+}
+
+.contact-form textarea{
+    height:200px ;
+}
+
+.contact-list p{
+    color: grey;
+}
+
+.contact-list h1,p {
+    text-align: left;
+}
+
+.media-btn .cv-btn{
+    height: 70px;
+    width: 70px;
+}
+
+.contact-list{
+    box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+    height: 500px;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+
+.contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* Contact designed End Here */
+
+
+
+
+
+/* footer design start here */
+.footer{
+    background-color: #212428;;
+    /* background-color: #40868b; */
+    padding: 1% 7%;
+    height: 100px;
+    color: gray;
+    padding-top: 40px;
+    padding-bottom: 50px;
+   
+
+}
+
+.footer p{
+    font-size: 15px;
+    text-align: center;
+}
+/* footer design end here */
