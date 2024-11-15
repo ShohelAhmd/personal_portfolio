@@ -31,14 +31,6 @@
 /* navbar design ends here */
 
 
-.aboutme-img img{
-    /* border: 2px solid white; */
-    height:220px ;
-    width: 200px;
-    border-radius: 0%;
-    box-shadow: 5px 5px 10px #1c1e22,
-    -5px -5px 10px #262a2e;
-}
 
 
 
@@ -101,6 +93,7 @@
     /* border: 2px solid white; */
     height:500px ;
     width: 400px;
+    border-radius: 2%;
 }
 
 .aboutme-des p{
