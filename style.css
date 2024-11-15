@@ -475,6 +475,9 @@ animation-name: html;
     display: table;
     content: '';
 }
+#btn{
+    color: #f9004d;
+}
 
 /* Contact designed End Here */
 
